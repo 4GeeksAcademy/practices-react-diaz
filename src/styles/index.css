@@ -10,3 +10,12 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+body{
+    background-color: black;
+}
+#mainContainer{
+    height: 600px;
+}
+#Input{
+    width: 500px;
+}
