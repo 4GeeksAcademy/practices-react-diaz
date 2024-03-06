@@ -11,7 +11,7 @@ const Home = () => {
 	const[hoverIndex, setHoverIndex] = useState(-1);
 
 	const handleTask=(e)=>{
-		if(e.key=== "Enter"){
+		if(e.key=== "Enter" && newTask.trim()!==""){
 			setTaskList([
 				...taskList,{
 					label: newTask,
